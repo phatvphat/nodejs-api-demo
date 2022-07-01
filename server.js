@@ -4,7 +4,7 @@ const connectDB = require("./conf/database");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
-const serverHost = process.env.HOSTNAME || "localhost"
+const serverHost = "localhost";
 const serverPort = process.env.PORT || 3000;
 
 const swaggerUi = require("swagger-ui-express");
