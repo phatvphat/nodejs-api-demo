@@ -12,7 +12,7 @@ Demo REST API built with Node.js and OpenAPI (Swagger) documentation.
   - Express for initiating the server
   - Mongoose for interracting with MongoDB
   - BodyParser to parse request body
-- MongoDB 4.0 (Docker container recommended)
+- MongoDB 4.0 (Docker container recommended but here we will not use docker)
 
 ## Walkthrough
 

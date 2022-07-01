@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const mongoHost = process.env.MONGO_CONNECTION_STRING || "mongodb://127.0.0.1:27017/demo";
+const mongoHost = process.env.MONGO_CONNECTION_STRING || "mongodb://demo:demo@pma.tdsof.dev:27017/nodejs-api-demo";
 const Task = require("../src/models/taskModel"); //created model loading here
 
 mongoose.Promise = global.Promise
